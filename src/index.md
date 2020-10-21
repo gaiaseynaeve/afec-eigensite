@@ -3,8 +3,8 @@ title: 'Homepage'
 layout: 'layouts/page.html'
 ---
 
-<div class="paragraaf1">Welkom op mijn portfolio website!</div>
-<div class="paragraaf2">Mijn naam is Gaïa Seynaeve, ik ben 25 jaar en studeer momenteel Grafische en Digitale Media aan AP Hogeschool.</div>
+<div class="paragraaf1">Welcome to my portfolio website!</div>
+<div class="paragraaf2">My name is Gaïa Seynaeve, I am 25 years old and I study Graphic and Digital Media at AP Hogeschool in Antwerp.</div>
 <div class="lijn1"></div>
 <div class="lijn2"></div>
 <div class="lijn3"></div>
