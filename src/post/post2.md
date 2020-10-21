@@ -1,6 +1,6 @@
 ---
 title: FULL BLEED (BY CHRIS COYIER)
-description: We’ve covered techniques before for when you want a full-width element within a constrained-width column, like an edge-to-edge image within a narrower column of text. There are loads of techniques.
+description: techniques for a nice layout
 date: 2020-09-12
 layout: 'layouts/post.html'
 ---

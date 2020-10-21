@@ -1,6 +1,6 @@
 ---
 title: COMPARING STYLING METHODS IN 2020 (BY CHRIS COYIER)
-description: Over on Smashing, Adebiyi Adedotun Lukman covers all these styling methods. It’s in the context of Next.js, which is somewhat important as Next.js has some specific ways you work with these tools, is React and, thus, is a components-based architecture. But the styling methods talked about transcend Next.js, and can apply broadly to lots of websites.
+description: Over on Smashing, Adebiyi Adedotun Lukman covers all these styling methods.
 date: 2020-09-10
 layout: 'layouts/post.html'
 ---

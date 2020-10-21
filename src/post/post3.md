@@ -1,15 +1,12 @@
 ---
 title: HOW TO RECREATE THE RIPPLE EFFECT OF MATERIAL DESIGN BUTTONS (BY BRET CAMERON)
-description: When I first discovered Material Design, I was particularly inspired by its button component. It uses a ripple effect to give users feedback in a simple, elegant way.
-How does this effect work? Material Design’s buttons don’t just sport a neat ripple animation, but the animation also changes position depending on where each button is clicked.
-date: 2020-09-10
+description: When I first discovered Material Design, I was particularly inspired by its button component
 layout: 'layouts/post.html'
 ---
 
 When I first discovered Material Design, I was particularly inspired by its button component. It uses a ripple effect to give users feedback in a simple, elegant way.
 
 How does this effect work? Material Design’s buttons don’t just sport a neat ripple animation, but the animation also changes position depending on where each button is clicked.
-
 
 We can achieve the same result. We’ll start with a concise solution using ES6+ JavaScript, before looking at a few alternative approaches.
 
