@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/admkrm/afec-eigensite-1.git"
+    "url": "git+https://github.com/gaiaseynaeve/afec-eigensite.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/admkrm/afec-eigensite-1/issues"
+    "url": "https://github.com/gaiaseynaeve/afec-eigensite/issues"
   },
-  "homepage": "https://github.com/admkrm/afec-eigensite-1#readme",
+  "homepage": "https://github.com/gaiaseynaeve/afec-eigensite#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
   }
