@@ -1,7 +1,7 @@
 ---
-title: 'Rebranding Antwerp Wine Store'
-summary: 'Dit logo is ontworpen tijden GD4'
-image: '/img/rebranding.png'
+title: 'Japans Cultureel Centrum'
+summary: 'Dit logo is ontworpen voor een vzw voor het vak Stage VT'
+image: '/img/jcc.png'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'

@@ -1,7 +1,7 @@
 ---
-title: 'Rebranding Antwerp Wine Store'
-summary: 'Dit logo is ontworpen tijden GD4'
-image: '/img/rebranding.png'
+title: 'My Road Steps'
+summary: 'Dit logo is ontworpen voor iemand in personal development'
+image: '/img/myroadsteps.png'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'

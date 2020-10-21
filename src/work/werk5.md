@@ -1,7 +1,7 @@
 ---
-title: 'Rebranding Antwerp Wine Store'
-summary: 'Dit logo is ontworpen tijden GD4'
-image: '/img/rebranding.png'
+title: 'Sucette'
+summary: 'Logo voor baby boetiek'
+image: '/img/sucette.png'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'

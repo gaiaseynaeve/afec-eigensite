@@ -1,14 +1,19 @@
 body {
 	width: 80vw;
 	margin: 5rem auto;
-	font-size: 2rem;
-	font-family: "helvetica neue",helvetica;
+	font-size: 1.75rem;
+	font-family: 'Open Sans', sans-serif;
+	color: dimgrey;
+	background-image: url(/img/texture.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 header h1 a {
+	font-family: 'Bad Script', cursive;
 	color: black;
 	text-decoration: none;
-	font-size: 3rem;
+	font-size: 4rem;
 	font-weight: 600;
 }
 
@@ -23,12 +28,13 @@ header nav ul li {
 }
 
 header nav ul li a {
-	color: firebrick;
+	color: black;
+	text-decoration: none;
+	padding-bottom: 2rem;
 }
 
 header nav ul li a.selected {
-	color: white;
-	background-color: firebrick;
+	border-bottom: 2px solid black;
 }
 
 header {
@@ -37,8 +43,12 @@ header {
 
 main h2 {
 	font-size: 2.25rem;
-	font-weight: 600;
+	font-weight: 900;
 	margin-bottom: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	border-bottom: 2px solid dimgrey;
+	padding-bottom: 2rem;
 }
 
 main p {
@@ -47,16 +57,30 @@ main p {
 }
 
 img {
-	max-width: 100%;
+	width: auto;
+	height: 200px;
 }
 
 main img {
 	display: block;
-	margin: 0 auto 3rem auto;
+	margin-bottom: 1rem;
+}
+
+main h4 {
+	margin-top: 3rem;
+}
+
+main .werkjes a {
+	display: block;
+  break-inside: avoid;
+  text-decoration: none;
+  color: black;
+	padding-bottom: 7rem;
 }
 
 main h3 {
-	font-size: 2.25rem;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
 	font-weight: 600;
 	margin-bottom: 3rem;
 }
@@ -90,5 +114,15 @@ main {
 		position: absolute;
 		top: 5.5rem;
 		right: 10vw;
+	}
+
+	.werkjes {
+		column-count: 2;
+	}
+}
+
+@media (min-width: 1100px){
+	.werkjes {
+		column-count: 3;
 	}
 }

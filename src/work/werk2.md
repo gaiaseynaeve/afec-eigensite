@@ -1,7 +1,7 @@
 ---
-title: 'Rebranding Antwerp Wine Store'
+title: 'Branding Antwerp Wine Store'
 summary: 'Dit logo is ontworpen tijden GD4'
-image: '/img/rebranding.png'
+image: '/img/branding.png'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'

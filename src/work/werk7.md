@@ -1,7 +1,7 @@
 ---
-title: 'Rebranding Antwerp Wine Store'
-summary: 'Dit logo is ontworpen tijden GD4'
-image: '/img/rebranding.png'
+title: 'KiteNation'
+summary: 'Dt logo is ontworpen voor de fitbit app die we moeten maken voor CMP5'
+image: '/img/KiteNation.png'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'

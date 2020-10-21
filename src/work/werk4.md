@@ -1,7 +1,7 @@
 ---
-title: 'Rebranding Antwerp Wine Store'
-summary: 'Dit logo is ontworpen tijden GD4'
-image: '/img/rebranding.png'
+title: 'Nutridao'
+summary: 'Dit logo heb ik ontworpen voor mijn moeder'
+image: '/img/nutridao.png'
 displayOrder: 1
 featured: true
 layout: 'layouts/work.html'
