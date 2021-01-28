@@ -8,7 +8,7 @@ layout: 'layouts/homepage.html'
   <div class="rectangle2"></div>
   <div class="paragraaf1">
     <h4>HI, I AM GAÏA SEYNAEVE!</h4>
-    <p class="paragraaf2">Student Graphic and Digital Media</p>
+    <p class="paragraaf2">Student in Graphic and Digital Media</p>
     <form action="about/index.html">
       <input type="submit" value="ABOUT ME" />
     </form>

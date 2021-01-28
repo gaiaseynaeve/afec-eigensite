@@ -3,9 +3,7 @@ title: 'Projects'
 layout: 'layouts/page.html'
 ---
 
-As a student I made some logos for assignments at school and for some friends. Below are the logos I made. Click on each logo to get more information.
-
-### LOGOS
+As a student I made some assignments at school, but I also had some assignments for acquaintances or family. Below are some of the projects I worked on. Click on each picture to get more information.
 
 <div class="werkjes">
 {% for item in collections.featuredWork %}
