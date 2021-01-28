@@ -10,7 +10,7 @@ color: '#E4D6C4'
 
 ![logo](/img/logo/nutridao.png)
 
-For the course Crossmedia Production, we have to create a Fitbit app. My group and II decided to create an app for kite surfers. In order make this app we needed a logo.
+My mom started her own firm focusing on nutrition and having a healthy lifestyle. I was happy to help her with the branding. She gave me "carte blanche", and as I know her very well, I knew what kind of style she wanted, so when I showed her the end result, she was very happy.
 
 <div class="charter">
   <img src="/img/nutridao-box.png">

@@ -10,4 +10,4 @@ color: '#ECE0DA'
 
 ![logo-ash](/img/logo/ash.png)
 
-For the course Crossmedia Production, we have to create a Fitbit app. My group and II decided to create an app for kite surfers. In order make this app we needed a logo.
+My father has had a store for blinds and awnings for a long time. He has had the same logo since the beginning, so I thought it was a good time to propose something new, something more modern. This logo is a first proposition.

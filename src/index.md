@@ -11,6 +11,6 @@ layout: 'layouts/homepage.html'
     <p class="paragraaf2">Student Graphic and Digital Media</p>
     <form action="about/index.html">
       <input type="submit" value="ABOUT ME" />
+    </form>
   </div>
-</form>
 </div>

@@ -105,6 +105,40 @@ main img {
 	margin-bottom: 1rem;
 }
 
+
+.who {
+	font-family: helvetica, sans-serif;
+	color: #FFF;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.effect {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+}
+
+
 main h4 {
 	margin-top: 3rem;
 	font-size: 3rem;
@@ -238,8 +272,13 @@ form textarea{
 
 footer {
 	margin-top: 10rem;
-	position: fixed;
-	bottom: 2rem;
+}
+
+main .gallery {
+	width: 100%;
+	margin: 0 0 2rem auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 @media (min-width: 800px) {
@@ -309,6 +348,10 @@ footer {
 		padding-bottom: 2rem;
 	}
 
+	main .gallery {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
 }
 
 @media (min-width: 1100px){
@@ -350,5 +393,9 @@ footer {
 	main h4 {
 		font-size: 5rem;
 		padding-bottom: 2rem;
+	}
+
+	main .gallery {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	}
 }

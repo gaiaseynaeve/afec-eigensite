@@ -10,7 +10,7 @@ color: '#AC9587'
 
 ![logo](/img/logo/kn.png)
 
-For the course Crossmedia Production, we have to create a Fitbit app. My group and II decided to create an app for kite surfers. In order make this app we needed a logo.
+For the course Crossmedia Production, we had to create a Fitbit app. My group and I decided to create an app for kite surfers. In order make this app we needed a logo.
 
 <div class="charter">
   <img src="/img/kn-mockup2.png">

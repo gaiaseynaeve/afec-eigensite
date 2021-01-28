@@ -9,12 +9,8 @@
       "url": "/about/"
     },
     {
-      "text": "Work",
-      "url": "/work/"
-    },
-    {
-      "text": "Blog",
-      "url": "/blog/"
+      "text": "Projects",
+      "url": "/project/"
     },
     {
       "text": "Contact",

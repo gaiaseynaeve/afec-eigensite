@@ -10,7 +10,7 @@ color: '#ECE0DA'
 
 ![logo](/img/logo/lc.png)
 
-For the course Crossmedia Production, we have to create a Fitbit app. My group and II decided to create an app for kite surfers. In order make this app we needed a logo.
+For the course Graphic Design, we had to choose a company for which we had to think of a whole new concept. I chose my dad's wine store and chose to create a new branding with a whole new vision, focusing on the younger generation. I made a playful brand identity with lots of colors.
 
 <div class="charter">
   <img src="/img/lc-site.png">
