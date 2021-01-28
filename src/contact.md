@@ -1,12 +1,11 @@
 ---
 title: 'CONTACT'
 layout: 'layouts/page.html'
-custom_css: 'body {background-color: lightpink;}'
 ---
 
 Do not hesitate to contact me if you have any questions.
 
-<form method="post">
+<form method="post" action="mailto:gaia_seynaeve@hotmail.be">
     <input type="text" placeholder="Name">
     <input type="text" placeholder="Last Name">
     <input type="text" placeholder="Email">

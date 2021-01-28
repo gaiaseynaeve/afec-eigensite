@@ -1,12 +1,16 @@
 ---
-title: 'Homepage'
-layout: 'layouts/page.html'
+title: 'Home'
+layout: 'layouts/homepage.html'
 ---
 
-<div class="paragraaf1">Welcome to my portfolio website!</div>
-<div class="paragraaf2">My name is Gaïa Seynaeve, I am 25 years old and I study Graphic and Digital Media at AP Hogeschool in Antwerp.</div>
-<div class="lijn1"></div>
-<div class="lijn2"></div>
-<div class="lijn3"></div>
-<div class="lijn4"></div>
-<div class="lijn5"></div>
+<div class="banner">
+  <img class="mypic" src="/img/gaia.png">
+  <div class="rectangle2"></div>
+  <div class="paragraaf1">
+    <h4>HI, I AM GAÏA SEYNAEVE!</h4>
+    <p class="paragraaf2">Student Graphic and Digital Media</p>
+    <form action="about/index.html">
+      <input type="submit" value="ABOUT ME" />
+  </div>
+</form>
+</div>

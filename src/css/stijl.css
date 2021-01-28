@@ -2,36 +2,23 @@ body {
 	width: 80vw;
 	margin: 5rem auto;
 	font-size: 1.75rem;
-	font-family: 'Open Sans', sans-serif;
-	color: dimgrey;
-	background-image: url(/img/texture.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	font-family: 'Barlow', sans-serif;
 }
 
 header h1 a {
-	font-size: 10rem;
+	font-size: 7rem;
 	text-decoration: none;
  	text-align: center;
-	color: whitesmoke;
-	font-family: 'Niconne', cursive;
-	font-weight: 700;
-  text-shadow: 2px 2px 0px lightpink,
-              		4px 4px 0px lightpink,
-                  6px 6px 0px thistle,
-                  8px 8px 0px thistle,
-                  10px 10px 0px plum,
-                  12px 12px 0px plum,
-                  14px 14px 0px purple,
-                  16px 16px 0px purple,
-                  18px 18px 0px purple;
+	color: black;
+	font-family: 'Barlow Condensed', sans-serif;
+	border-bottom: 0.5rem solid black;
 }
 
 header nav ul {
 	display: flex;
 	flex-direction: column;
 	margin-top: 2rem;
-	padding-top: 5rem;
+	padding-top: 2rem;
 }
 
 header nav ul li {
@@ -41,8 +28,13 @@ header nav ul li {
 header nav ul li a {
 	color: black;
 	text-decoration: none;
-	padding-bottom: 1rem;
+	text-transform: uppercase;
 	line-height: 3rem;
+}
+
+header nav ul li a:hover {
+	border-bottom: 2px solid black;
+	font-weight: 900;
 }
 
 header nav ul li a.selected {
@@ -54,91 +46,53 @@ header {
 }
 
 main h2 {
-	font-size: 2.25rem;
+	font-size: 2.5rem;
+	height: auto;
+	width: 30rem;
+	text-align: center;
 	font-weight: 900;
 	margin-bottom: 3rem;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	border-bottom: 2px solid dimgrey;
 	padding-bottom: 2rem;
+	padding-top: 2rem;
+	background-image: url(/img/titlebg-03.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+main .banner {
+	height: 75rem;
+	width: 100%;
+	position: relative;
+}
+
+main .banner .mypic {
+	position: absolute;
+	right: 0;
+	bottom: -1rem;
+	height: 50rem;
+	z-index: 3;
+}
+
+main .banner .rectangle2 {
+	position: absolute;
+	right:0;
+	bottom: 0;
+	height: 75%;
+	width: 50vw;
+	background-color: #E4D6C4;
+	z-index: 2;
 }
 
 main p {
-	line-height: 3rem;
-	margin-bottom: 3rem;
-}
-
-.paragraaf1 {
-  background-color: lightpink;
-  width: 50rem;
-  height: 50rem;
-  border-radius: 50%;
-  font-size: 9rem;
-  overflow: hidden;
-  padding-left: 3rem;
-	padding-top: 8rem;
-  box-sizing: border-box;
-  font-weight: 900;
+	margin-bottom: 2rem;
+	line-height: 2.5rem;
 }
 
 main {
 	position:relative;
-}
-
-.paragraaf2 {
-	font-family: 'bad script', cursive;
-	background-color: plum;
-	width: 80rem;
-	height: 34rem;
-	font-size: 4rem;
-	padding: 9.5rem 5rem;
-	line-height: 5rem;
-	transform: rotate(15deg);
-}
-
-.lijn1 {
-	height: 10px;
-	width: 60vw;
-	background-color: purple;
-	position: absolute;
-	bottom: 2rem;
-	right: 0;
-}
-
-.lijn2 {
-	height: 10px;
-	width: 55vw;
-	background-color: purple;
-	position: absolute;
-	bottom: 4rem;
-	right: 0;
-}
-
-.lijn3 {
-	height: 10px;
-	width: 50vw;
-	background-color: purple;
-	position: absolute;
-	bottom: 6rem;
-	right: 0;
-}
-
-.lijn4 {
-	height: 50vh;
-	width: 10px;
-	background-color: purple;
-	position: absolute;
-	bottom: 0;
-	right: 2rem;
-}
-
-.lijn5 {
-	height: 50vh;
-	width: 10px;
-	background-color: purple;
-	position: absolute;
-	bottom: 0;
-	right: 4rem;
 }
 
 img {
@@ -153,6 +107,22 @@ main img {
 
 main h4 {
 	margin-top: 3rem;
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
+
+main .banner .paragraaf2 {
+	font-weight: 900;
+	font-size: 2rem;
+}
+
+.werkjes {
+	margin-top: 3rem auto;
+}
+
+.werktitels img {
+	width: 34rem;
+	height: auto;
 }
 
 main .werkjes a {
@@ -160,7 +130,53 @@ main .werkjes a {
   break-inside: avoid;
   text-decoration: none;
   color: black;
-	padding-bottom: 7rem;
+}
+
+main .rectangle {
+	width: 40rem;
+	height: 40rem;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+}
+
+main .sourcepic {
+	height: 35rem;
+	width: auto;
+	padding-top: 5rem;
+	margin-left: 5rem;
+	overflow: visible;
+}
+
+main .charter img{
+	width: 30rem;
+	height: auto;
+	margin: 2rem auto;
+}
+
+main .worktext img[alt=logo]{
+	height: 30rem;
+	width: auto;
+	margin: 0 auto;
+}
+
+main .worktext img[alt=logo-ash]{
+	width: 40rem;
+	height: auto;
+	margin: 0 auto;
+}
+
+.werktitels {
+	background-color: white;
+	box-shadow: 3px 3px 10px 1px #888888;
+	height: 34rem;
+	width: 34rem;
+	margin-bottom: 5rem;
+	padding: auto auto;
+	transition: transform .2s;
+}
+
+.werktitels:hover {
+	transform: scale(1.05);
 }
 
 main h3 {
@@ -192,6 +208,7 @@ form input {
   width: 49%;
 	padding: 1rem;
 	margin-bottom: 2rem;
+	font-family: 'Barlow', sans-serif;
 }
 
 form input:not(:nth-child(2n)) {
@@ -200,14 +217,15 @@ form input:not(:nth-child(2n)) {
 
 form input:last-child {
   clear: both;
-  width: 15%;
-	background-color: thistle;
-	border-radius: 10px;
+  width: 15rem;
+	background-color: #ECE0DA;
+	transition: transform .2s;
 }
 
 form input:last-child:hover {
-	background-color: purple;
-	color: thistle
+	background-color: #AC9587;
+	color: #ECE0DA;
+	transform: scale(1.05);
 }
 
 form textarea{
@@ -215,11 +233,13 @@ form textarea{
   clear: both;
   width: 100%;
 	margin-bottom: 2rem;
-	font-family: 'helvetica', sans-serif;
+	font-family: 'Barlow', sans-serif;
 }
 
 footer {
 	margin-top: 10rem;
+	position: fixed;
+	bottom: 2rem;
 }
 
 @media (min-width: 800px) {
@@ -241,9 +261,54 @@ footer {
 		right: 10vw;
 	}
 
+	header nav ul li a {
+		padding-bottom: 1rem;
+	}
+
+	main .banner {
+		height: 50rem;
+		width: 100%;
+		position: relative;
+	}
+
+	main .banner .rectangle2 {
+		height: 100%;
+	}
+
 	.werkjes {
 		column-count: 2;
 	}
+
+	main .sourcepic {
+		height: 30rem;
+		width: auto;
+		padding-top: 5rem;
+		margin-left: -10rem;
+		overflow: visible;
+	}
+
+	main .worktext img[alt=logo-ash]{
+		width: 50rem;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	main .banner .paragraaf1 {
+		position: absolute;
+		top: 15rem;
+		z-index: 3;
+	}
+
+	main .banner .paragraaf2 {
+		font-weight: 900;
+		font-size: 2rem;
+	}
+
+	main h4 {
+		font-size: 3rem;
+		padding-bottom: 2rem;
+	}
+
 }
 
 @media (min-width: 1100px){
@@ -251,10 +316,39 @@ footer {
 		column-count: 3;
 	}
 
-
-	.paragraaf2 {
+	main .rectangle {
+		width: 25vw;
+		height: 60rem;
 		position: absolute;
-		right: 5rem;
-		top: 20rem;
+		right: 0;
+		top: 5rem;
+	}
+
+	main .sourcepic {
+		height: 30rem;
+		width: auto;
+		padding-top: 0;
+		margin: 15rem auto auto -5rem;
+		overflow: visible;
+	}
+
+	main .worktext {
+		width: 50vw;
+	}
+
+	main .charter {
+		width: 70rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main .banner .paragraaf2 {
+		font-weight: 900;
+		font-size: 2rem;
+	}
+
+	main h4 {
+		font-size: 5rem;
+		padding-bottom: 2rem;
 	}
 }

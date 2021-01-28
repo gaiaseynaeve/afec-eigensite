@@ -2,6 +2,8 @@
 
 {% block content %}
  	<h3>WORK: {{ title }}</h3>
-	<img src="{{ image }}" alt="{{ summary }}"/>
-  {{ content | safe }}
+  <div class="rectangle" style="background-color:{{ color }};">
+    <img class="sourcepic" src="{{ image }}" alt="{{ summary }}"/>
+  </div>
+  <div class="worktext"> {{ content | safe }}</div>
 {% endblock %}
